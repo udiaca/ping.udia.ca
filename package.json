@@ -1,7 +1,7 @@
 {
-  "name": "miniflare-typescript-esbuild-jest",
+  "name": "ping.udia.ca",
   "version": "1.0.0",
-  "description": "Example project using Miniflare, TypeScript, esbuild and Jest",
+  "description": "Worker to return request headers and CloudFlare metadata",
   "type": "module",
   "module": "./dist/index.mjs",
   "scripts": {
@@ -13,8 +13,11 @@
     "deploy": "wrangler publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "author": {
+    "name": "Alexander Wong",
+    "email": "alex@udia.ca"
+  },
+  "license": "AGPL-3.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^3.11.0",
     "@types/jest": "^27.5.1",
