@@ -1,5 +1,8 @@
 # ping.udia.ca
 
+Live (text/html): [https://ping.udia.ca](https://ping.udia.ca)
+Live (json): [https://ping.udia.ca?json=1](https://ping.udia.ca?json=1)
+
 Return the user's request headers and Cloudflare derived metadata.
 
 ```shell
@@ -16,7 +19,6 @@ $ npm run types:check
 # Deploy using wrangler
 $ npm run deploy
 ```
-
 
 ## License
 
