@@ -7,7 +7,7 @@ const buildHtml = (text: string) => `<!DOCTYPE html>
 <body><pre><code>${text}</code></pre></body>
 </html>`;
 
-export function handleRequest(request: Request, env: Bindings) {
+export function handleRequest(request: Request, env: {}) {
   const url = new URL(request.url);
 
   const payload = {
@@ -38,6 +38,6 @@ export function handleRequest(request: Request, env: Bindings) {
   });
 }
 
-const worker: ExportedHandler<Bindings> = { fetch: handleRequest };
+const worker: ExportedHandler<{}> = { fetch: handleRequest };
 
 export default worker;

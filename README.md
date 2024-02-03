@@ -8,14 +8,8 @@ Return the user's request headers and Cloudflare derived metadata.
 ```shell
 # Install dependencies
 $ npm install
-# Start local development server with live reload
-$ npm run dev
-# Start remote development server using wrangler
-$ npm run dev:remote
-# Run tests
-$ npm test
-# Run type checking
-$ npm run types:check
+# run locally
+$ npm start
 # Deploy using wrangler
 $ npm run deploy
 ```
